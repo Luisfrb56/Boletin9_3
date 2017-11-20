@@ -12,7 +12,7 @@ public class Metodos3 {
     base=sc.nextInt();
         System.out.println("Dame la altura: ");
     altura=sc.nextInt();
-    if(base>=0 && altura>=0){
+    if(base>0 && altura>0){
         Area=base*altura;
         System.out.println("El area del rectangulo es: "+Area);
     }else{
